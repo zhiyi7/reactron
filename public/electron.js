@@ -11,7 +11,7 @@ function createWindow() {
         height: 800,
         icon: __dirname + '/build/icon.png',
         webPreferences: {
-            nodeIntegration: true,
+            contextIsolation: false,
             devTools: isDev,
         }
     })
